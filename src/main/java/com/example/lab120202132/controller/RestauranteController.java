@@ -29,7 +29,7 @@ public class RestauranteController {
     @GetMapping("/historial")
     public String historial(Model model){
         List<Order> order = new ArrayList<>();
-
+        model.addAttribute("order", order);
         return "historialpedido";
     }
     @PostMapping("/crear")
