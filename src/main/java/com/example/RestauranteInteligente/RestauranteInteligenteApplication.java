@@ -1,13 +1,13 @@
-package com.example.lab120202132;
+package com.example.RestauranteInteligente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Lab120202132Application {
+public class RestauranteInteligenteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Lab120202132Application.class, args);
+		SpringApplication.run(RestauranteInteligenteApplication.class, args);
 	}
 
 }

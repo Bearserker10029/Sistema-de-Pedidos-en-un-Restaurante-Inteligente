@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>lab1-20202132</artifactId>
+	<artifactId>Restaurante-Inteligente</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lab1-20202132</name>
-	<description>lab1-20202132</description>
+	<name>Restaurante-Inteligente</name>
+	<description>Restaurante-Inteligente</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -27,14 +27,17 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>25</java.version>
+		<java.version>26</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
