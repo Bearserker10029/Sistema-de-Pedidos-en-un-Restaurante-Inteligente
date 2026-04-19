@@ -1,10 +1,10 @@
-package com.example.lab120202132;
+package com.example.RestauranteInteligente;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Lab120202132ApplicationTests {
+class RestauranteInteligenteApplicationTests {
 
 	@Test
 	void contextLoads() {
